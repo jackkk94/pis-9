@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "nodemon -L /src/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20"
+  }
+}
