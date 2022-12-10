@@ -25,7 +25,7 @@ https://nodejs.org/en/download/
 
 - Приложение запустится по адресу localhost:3000
 
-- Порядок настройки кластеризации:
+## Порядок настройки кластеризации:
 - 1. ./docker-compose.yml -> services.app.image = 127.0.0.1:5000/node
 - 2. ./docker-compose.yml -> services.app.deploy.mode = replicated
      ./docker-compose.yml -> services.app.deploy.replicas = 4
